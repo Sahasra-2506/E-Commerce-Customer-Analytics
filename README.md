@@ -18,19 +18,19 @@ This project answers that using the [Olist Brazilian E-Commerce dataset](https:/
 
 **1. SQL — Data Extraction**
 Raw relational tables (orders, order items, payments, customers) were joined and aggregated using SQL to build a customer-level dataset. This included window functions (`LAG()` for month-over-month revenue growth) and CTEs to calculate Recency, Frequency, and Monetary value per customer.
-→ See [`/sql`](./sql)
+→ See [`/sql`](./SQL)
 
 **2. Python — RFM Scoring & Segmentation**
 Using pandas and numpy, each customer was scored 1–5 on Recency, Frequency, and Monetary value (quintile-based), then mapped into six business-friendly segments: Champions, Loyal Customers, At Risk, New Customers, Needs Attention, and Lost.
-→ See [`/notebooks`](./notebooks)
+→ See [`/notebooks`](./Notebooks)
 
 **3. Visualization**
 Segment size and revenue contribution were visualized with matplotlib/seaborn to validate the segmentation before building the dashboard.
-→ See [`/outputs`](./outputs)
+→ See [`/outputs`](./Outputs)
 
 **4. Power BI Dashboard**
 An interactive two-page dashboard: an overview page (total revenue, customers, monthly trend) and a segmentation page (customer count and revenue by segment, with a clickable slicer).
-→ See [`/powerbi`](./powerbi)
+→ See [`/powerbi`](./PowerBI)
 
 ---
 
