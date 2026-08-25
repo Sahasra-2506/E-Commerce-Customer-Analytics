@@ -51,21 +51,13 @@ Prioritize a re-engagement campaign (targeted offers, reminder emails) for the "
 ## Repository Structure
 
 ```
-├── sql/            SQL queries: order summaries, RFM base table, monthly revenue (window functions)
-├── notebooks/       Python notebook: RFM scoring, segmentation, visualizations
-├── outputs/          Exported CSVs and chart images
-├── powerbi/          Power BI dashboard (.pbix)
+├── Notebooks/            SQL queries: order summaries, RFM base table, monthly revenue (window functions)
+├── Outputs/       Python notebook: RFM scoring, segmentation, visualizations
+├── PowerBI/          Exported CSVs and chart images
+├── SQL/          Power BI dashboard (.pbix)
 └── README.md
 ```
 
 ---
 
-## Dashboard Preview
 
-*(Add a screenshot of your Power BI dashboard here — see note below)*
-
----
-
-## Notes on the Dataset
-
-This project uses the Olist Brazilian E-Commerce Public Dataset, a real, publicly available dataset. Raw source CSVs are not included in this repo (available directly from Kaggle) — only the derived, cleaned outputs and analysis code are included here.
