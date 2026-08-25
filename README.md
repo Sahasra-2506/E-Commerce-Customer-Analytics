@@ -51,10 +51,10 @@ Prioritize a re-engagement campaign (targeted offers, reminder emails) for the "
 ## Repository Structure
 
 ```
-├── Notebooks/            SQL queries: order summaries, RFM base table, monthly revenue (window functions)
-├── Outputs/       Python notebook: RFM scoring, segmentation, visualizations
-├── PowerBI/          Exported CSVs and chart images
-├── SQL/          Power BI dashboard (.pbix)
+├── Notebooks/           Python notebook: RFM scoring, segmentation, visualizations
+├── Outputs/             Exported CSVs and chart images
+├── PowerBI/             Power BI dashboard (.pbix)
+├── SQL/                 SQL queries: order summaries, RFM base table, monthly revenue (window functions)
 └── README.md
 ```
 
